@@ -1,11 +1,15 @@
 {
     "name": "faculdade",
     "version": "1.0.0",
+    "engines": {
+        "node": "16.15.1",
+        "npm": "8.x"
+    },
     "description": "",
     "main": "src/app.js",
     "scripts": {
         "dev": "nodemon server/server.mjs",
-        "start": "src/app.mjs"
+        "start": "node src/app.mjs"
     },
     "keywords": [],
     "author": "",

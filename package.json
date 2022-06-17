@@ -9,7 +9,7 @@
     "main": "src/app.js",
     "scripts": {
         "dev": "nodemon server/server.mjs",
-        "start": "node src/app.mjs"
+        "start": "node server/server.mjs"
     },
     "keywords": [],
     "author": "",

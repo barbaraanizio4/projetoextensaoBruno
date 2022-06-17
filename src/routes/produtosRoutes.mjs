@@ -1,11 +1,10 @@
 import express from "express";
-import handleProdutos from "../controler/handleProdutos.mjs";
+import produto from "../controler/produto.mjs";
 
 const produtosRoutes = express.Router();
 
 produtosRoutes
-  .get("/produtos", handleProdutos.getProdutos)
-  .get("/produtos/:id", handleProdutos.getProdutoById)
-  .post("/produtos", handleProdutos.getProdutoById);
+    .get("/produtos", produto.getProdutos)
+    .get("/produtos/:id", produto.getProdutoById)
 
 export default produtosRoutes;
